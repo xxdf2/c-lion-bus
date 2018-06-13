@@ -1,0 +1,14 @@
+<?php
+return [
+    'enable_driver'=>'Redis',
+    'Redis'=>[
+        'host'=>'127.0.0.1',
+        'auth'=>'123456',
+        'db'=>9,
+        'port'=>6379,
+        'timeout'=>30
+    ],
+    'command'=>[
+         'Sign'=>'php -v'
+    ]
+];

@@ -1,0 +1,18 @@
+{
+  "name": "liushuchao/c-lion-bus",
+  "type": "library",
+  "description": "lion-bus for composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "liushuchao",
+      "email": "liushuchao@9maibei.com"
+    }
+  ],
+  "autoload": {
+    "psr-4":{
+      "Lion\\": "src/"
+    },
+    "files": ["src/Common/function.php"]
+  }
+}
