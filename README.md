@@ -24,6 +24,7 @@ Lion是消息总线的一种实现(基于Swoole实现)。
 
 # C-Lion-Bus使用教程
 
+以下教程，默认你已经安装了swoole。
 
 ---
 ## 0、c-lion-bus使用说明
