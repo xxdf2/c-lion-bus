@@ -1,12 +1,12 @@
 {
-  "name": "liushuchao/c-lion-bus",
+  "name": "ericliu000/c-lion-bus",
   "type": "library",
   "description": "lion-bus for composer",
   "license": "MIT",
   "authors": [
     {
-      "name": "liushuchao",
-      "email": "liushuchao@9maibei.com"
+      "name": "eric",
+      "email": "919696910@qq.com"
     }
   ],
   "autoload": {
