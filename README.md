@@ -120,7 +120,9 @@ public function Sms(){
 
 有使用疑问请联系QQ:919696910
 
-
+## TODO
+1、接入kafka
+2、接入rabbitmq
 
 
 [1]: http://ww1.sinaimg.cn/large/0060lm7Tly1fmwgdodjwvj30hs0bf75i.jpg
