@@ -118,7 +118,7 @@ public function Sms(){
 }
 ```
 
-有使用疑问请联系QQ:919696910
+有使用疑问请联系 E-MAIL:ericliu2022@gmail.com
 
 ## TODO
 1、接入kafka
