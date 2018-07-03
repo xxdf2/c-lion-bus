@@ -59,6 +59,12 @@ class SwooleRedisConnectLogic extends SwooleConnectLogic
      */
     public function run()
     {
+        //ensure the tcp package is complete
+        $this->swoole_client->set(array(
+            'open_eof_check' => true,
+            'package_eof' => "\r\n",
+        ));
+        
         //connect to redis server
         $connect_command = $this->get_connect_command();
         $this->swoole_client->on("connect", function ($cli) use ($connect_command) {
